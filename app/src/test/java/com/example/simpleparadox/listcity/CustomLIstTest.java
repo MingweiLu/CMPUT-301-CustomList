@@ -42,7 +42,6 @@ public class CustomLIstTest {
         assertEquals(listSize + 1, list.getCount());
         list.deleteCity(newCity);
         assertFalse(list.hasCity(newCity));
-
     }
 
 }
